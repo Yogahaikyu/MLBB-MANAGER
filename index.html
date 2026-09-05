@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d18">
+<title>MLBB Manager 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<header>
+  <div class="brand"><div class="logo">M</div><div><b>MLBB MANAGER 2026</b><span>GLOBAL ESPORTS CAREER</span></div></div>
+  <div class="headerRight"><span id="season"></span><span id="date"></span><button id="save">SAVE</button></div>
+</header>
+<div class="shell">
+<aside>
+ <div class="clubmini"><div class="crest">NP</div><div><b id="clubName">Nusantara Phoenix</b><small>Indonesia</small></div></div>
+ <nav>
+  <button class="active" data-page="home">⌂ Dashboard</button>
+  <button data-page="career">◎ Career</button>
+  <button data-page="squad">♙ Squad</button>
+  <button data-page="training">⚡ Training</button>
+  <button data-page="tactics">◇ Tactics</button>
+  <button data-page="leagues">▤ Leagues</button>
+  <button data-page="matches">◷ Schedule</button>
+  <button data-page="market">⇄ Transfers</button>
+  <button data-page="club">▦ Club</button>
+  <button data-page="records">★ Records</button>
+ </nav>
+ <div class="sidefoot"><button id="newgame">New Career</button><small>Offline • Local Save</small></div>
+</aside>
+<main>
+ <div id="toast"></div>
+ <section id="home" class="page active"></section>
+ <section id="career" class="page"></section>
+ <section id="squad" class="page"></section>
+ <section id="training" class="page"></section>
+ <section id="tactics" class="page"></section>
+ <section id="leagues" class="page"></section>
+ <section id="matches" class="page"></section>
+ <section id="market" class="page"></section>
+ <section id="club" class="page"></section>
+ <section id="records" class="page"></section>
+</main>
+</div>
+</div>
+<script src="data.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
